@@ -8,9 +8,13 @@
 }
 
 .header {
+    font-size: 1.4rem;
     height: 7rem;
     background-color: #fff;
     border-bottom: var(--grey-light-2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .content {
@@ -19,12 +23,17 @@
 
 .sidebar {
     background-color: var(--grey-dark-1);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
 
     flex: 0 0 18%;
 }
 
 .hotel-view {
     background-color: white;
+    height: 80rem;
 
     flex: 1; //the element is growing as much as it can, and end up occuping all available space
 }
